@@ -1,3 +1,8 @@
+:root{
+    --cor-principal: #106DE9; /* Azul */
+    
+}
+
 .container{
     padding-bottom: 20%;
 }
@@ -20,13 +25,13 @@
 
 .conteudo__principal--projetos-img{
     zoom: 0.4;
-    border: 2px solid #106DE9;
+    border: 2px solid var(--cor-principal);
     border-radius: 10px;
 }
 
 .conteudo__principal--projetos-img--2{
     zoom: 0.300;
-    border: 2px solid #106DE9;
+    border: 2px solid var(--cor-principal);
     border-radius: 10px;
 }
 
@@ -45,7 +50,7 @@
 
 .link__projetos__repositório{
     text-decoration: none;
-    background-color: #106DE9;
+    background-color: var(--cor-principal);
     width: 200px;
     height: 50px;
     line-height: 50px;
@@ -61,7 +66,7 @@
 .link__projetos__demonstração{
     text-decoration: none;
     background-color: whitesmoke;
-    color: #106DE9;
+    color: var(--cor-principal);
     width: 200px;
     height: 50px;
     line-height: 50px;

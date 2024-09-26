@@ -1,3 +1,8 @@
+:root{
+    --cor-principal: #106DE9; /* Azul */
+    
+}
+
 .container{
     padding: 5% 15%;
 }
@@ -31,22 +36,22 @@
     width: 400px;
     height: 40px;
     border-radius: 10px;
-    border: 2px solid #106DE9;
+    border: 2px solid var(--cor-principal);
     padding: 10px;
-    color: #106DE9;
+    color: var(--cor-principal);
     font-size: 20px;
 }
 
 #txtmensagem{
     width: 600px;
     border-radius: 10px;
-    border: 2px solid #106DE9;
-    color: #106DE9;
+    border: 2px solid var(--cor-principal);
+    color: var(--cor-principal);
     padding: 5px;
 }
 
 .btn-enviar{
-    background-color: #106DE9;
+    background-color: var(--cor-principal);
     width: 150px;
     border-radius: 10px;
     border: 1px solid white;
@@ -56,8 +61,8 @@
 
 .btn-enviar:hover{
     background-color: #272727;
-    color: #106DE9;
-    border: 1px solid #106DE9;
+    color: var(--cor-principal);
+    border: 1px solid var(--cor-principal);
     transition: 0.5s;
 }
 
