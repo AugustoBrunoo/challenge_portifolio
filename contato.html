@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./styles/style1.css">
+    <link rel="stylesheet" href="./styles/style3.css">
+</head>
+<body>
+    <header>
+        <header class="cabecalho">
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu--link" href="meuperfil.html">Início</a>
+                <a class="cabecalho__menu--link" href="projetos.html">Projetos</a>
+                <a class="cabecalho__menu--link" href="contato.html">Contato</a>
+            </nav>
+        </header>
+    </header>
+    <main class="container">
+        <div class="container__conteudo--formulariotxt">
+            <h1 class="formulario--titulo">Contato</h1>
+            <p class="formulario--subtitulo">Quer entrar em contato comigo?</p>
+            <p class="formulario--subtitulo">Preencha o formulário e entrarei em contato o mais rápido possível.</p>
+        </div>
+        <div class="container__conteudo--formulario">
+            <p class="container__conteudo--formulario--categorias" >
+                Nome:
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+            </p>
+            
+            <p class="container__conteudo--formulario--categorias" >
+                Email:
+                <input type="email" name="txtemail" id="txtemail" placeholder="Digite seu email...">
+            </p>
+
+            <p class="container__conteudo--formulario--categorias" >
+                Assunto:
+                <input type="text" name="txtassunto" id="txtassunto" placeholder="Diga o assunto">
+            </p>
+
+            <p class="container__conteudo--formulario--categorias" >
+                Mensagem:
+                <textarea name="txtmensagem" id="txtmensagem" cols="40" rows="10"></textarea>
+            </p>
+
+            <button type="submit" onclick="enviar()" class="btn-enviar" value="Enviar mensagem">Enviar mensagem</button>
+
+        </div>
+    </main>
+    <footer class="rodape__container">
+        <div class="rodape__container--conteudo">
+            <h6>Desenvolvido por Augusto.</h6>
+        </div>
+    </footer>
+    <script src="formulario.js"></script>
+</body>
+</html>

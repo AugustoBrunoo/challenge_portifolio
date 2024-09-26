@@ -1,0 +1,76 @@
+.container{
+    padding: 5% 15%;
+}
+
+.container__conteudo--formulariotxt{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 2%;
+}
+
+.formulario--titulo{
+    font-size: 35px;
+}
+
+.container__conteudo--formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container__conteudo--formulario--categorias{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#nome,
+#txtemail,
+#txtassunto{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #106DE9;
+    padding: 10px;
+    color: #106DE9;
+    font-size: 20px;
+}
+
+#txtmensagem{
+    width: 600px;
+    border-radius: 10px;
+    border: 2px solid #106DE9;
+    color: #106DE9;
+    padding: 5px;
+}
+
+.btn-enviar{
+    background-color: #106DE9;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    margin-left: 15%;
+}
+
+.btn-enviar:hover{
+    background-color: #272727;
+    color: #106DE9;
+    border: 1px solid #106DE9;
+    transition: 0.5s;
+}
+
+@media(max-width: 768px){
+    .container{
+        padding: 5% 5% 3% 5%;
+    }
+
+    .btn-enviar{
+        margin-left: 0;
+        align-self: center;
+        margin-bottom: 30%;
+    }
+
+    
+}
