@@ -59,16 +59,16 @@ body{
 }
 
 .conteudo__textos--titulo{
-    font-size: 35px;
+    font-size: 2.1875rem;
 }
 
 .profissao-destaque{
-    font-size: 35px;
+    font-size: 2.1875rem;
     color: var(--cor-principal);
 }
 
 .conteudo__textos--subtitulo{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .conteudo__contato{
@@ -146,7 +146,7 @@ body{
 }
 
 .conteudo__skills--titulo{
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-bottom: 2%;
     margin-right: 2%;
 }
@@ -178,7 +178,7 @@ body{
 }
 
 .conteudo__hobbies--titulo{
-    font-size:40px;
+    font-size: 2.5rem;
     margin-right: 2%;
     margin-bottom: 2%;
 }
@@ -210,7 +210,7 @@ body{
 }
 
 .conteudo__formacao--titulo{
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-bottom: 5%;
 }
 
@@ -231,7 +231,7 @@ body{
 }
 
 .formação--destaque{
-    font-size: 25px;
+    font-size: 1.5625rem;
     margin-bottom: 10px;
 
 }
